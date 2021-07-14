@@ -18,5 +18,7 @@ app.use('/Trips', trips_routes);
 const edit_info_routes = require('./Routes/Edit_info');
 app.use('/Editinfo', edit_info_routes);
 
-
+// import ride route
+const ride_route = require('./Routes/Ride');
+app.use('/ride', ride_route);
 
